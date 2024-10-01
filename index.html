@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>school</title>
+
+  <!--bootstrap links-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!--css file and other links-->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <header class="header">
+    <nav class="navbar bg-white">
+      <div class="container-fluid px-5" style="margin-left: auto; margin-right: auto;">
+        
+        <button class="navbar-toggler border-0 d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          
+        </button>
+        
+        <a class="navbar-brand" href="#">
+          <img src="icons/logo.png" alt="Logo" class="d-inline-block align-text-top">
+        </a>
+  
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active text-dark" href="#" id="navbarDropdownHome" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
+                  <ul class="dropdown-menu border-0 rounded-0" aria-labelledby="navbarDropdownHome">
+                    <li><a class="dropdown-item" href="#">Home Heading 1</a></li>
+                    <li><a class="dropdown-item" href="#">Home Heading 2</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle ms-3 text-dark" href="#" id="navbarDropdownCourses" role="button" data-bs-toggle="dropdown" aria-expanded="false">All Courses</a>
+                  <ul class="dropdown-menu rounded-0 border-0 bg-danger" aria-labelledby="navbarDropdownCourses">
+                    <li><a class="dropdown-item" href="#">Courses Heading 1</a></li>
+                    <li><a class="dropdown-item" href="#">Courses Heading 2</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle ms-3 text-dark" href="#" id="navbarDropdownBlog" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog Classic</a>
+                  <ul class="dropdown-menu bg-danger border-0 rounded-0" aria-labelledby="navbarDropdownBlog">
+                    <li><a class="dropdown-item" href="#">Blog Heading 1</a></li>
+                    <li><a class="dropdown-item" href="#">Blog Heading 2</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle ms-3 text-dark" href="#" id="navbarDropdownPages" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                  <ul class="dropdown-menu bg-danger border-0 rounded-0" aria-labelledby="navbarDropdownPages">
+                    <li><a class="dropdown-item" href="#">Pages Heading 1</a></li>
+                    <li><a class="dropdown-item" href="#">Pages Heading 2</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ms-3 text-dark" href="#">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+            <!-- <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button> -->
+          </div>
+        </nav>
+  
+        <button type="button" class="btn-1 rounded-5">
+          <p class="text m-0">Join Live Class</p>
+        </button>
+  </div>
+    </nav>
+  </header>
+
+    <!--carousel1-->
+    <div id="slider1" class="carousel" data-bs-ride="carousel">
+      <div class="carousel-inner">
+    
+        <div class="carousel-item active">
+    
+          <img src="icons/slide1/banner_1.png" class="w-100 img-responsive" alt="banner_1">
+        
+          <div class="carousel-overlay"></div>
+        
+          <div class="carousel-caption d-flex h-100 align-items-center p-0">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 col-md-12">
+                  <h5>WELCOME TO OUR VARSITY</h5>
+                
+                  <h2>Education is the best key success in life</h2>
+                
+                <button type="button" id="btn2" class="btn px-3 py-0 rounded-5" style="background-color: transparent; border: 2px solid white;">
+                  <p class="text m-0 px-2 py-2 fw-bold text-white">Our Courses</p>
+                </button>
+
+                </div>
+  
+              </div>
+            </div>
+
+          </div>
+
+          <!--from video refered-->
+          <!-- <div class="carousel-caption-one d-flex flex-column h-100 align-items-center justify-content-center">
+            <p class="h2">Hellooo my dear students</p>
+            <p class="display-5">Some of representative callses ofa asdfsins sdifns the eg.</p>
+            <button type="button" id="btn2" class="btn px-3 py-0 rounded-5" style="background-color: transparent; border: 2px solid white;">
+              <p class="text m-0 px-2 py-2 fw-bold text-white">Our Courses</p>
+            </button>
+          </div> -->
+
+        </div>
+    
+        <div class="carousel-item">
+    
+          <img src="icons/slide1/banner_2.png" class="img-responsive w-100" alt="banner_2">
+    
+          <div class="carousel-overlay"></div>
+    
+          <div class="carousel-caption d-flex h-100 align-items-center p-0">
+            <div class="container">
+
+              <div class="row">
+                <div class="col-lg-12 col-md-12">
+                  <h5>WELCOME TO OUR VARSITY</h5>
+                
+                  <h2>Education is the best key success in life</h2>
+                
+                <button type="button" id="btn2" class="btn px-3 py-0 rounded-5" style="background-color: transparent; border: 2px solid white;">
+                  <p class="text m-0 px-2 py-2 fw-bold text-white">Our Courses</p>
+                </button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+         
+        </div>
+    
+        <div class="carousel-item">
+    
+          <img src="icons/slide1/banner_3.png" class="img-responsive w-100" alt="banner_3">
+    
+          <div class="carousel-overlay"></div>
+    
+          <div class="carousel-caption d-flex h-100 align-items-center p-0">
+            <div class="container">
+
+              <div class="row">
+                <div class="col-lg-12 col-md-12">
+                  <h5>WELCOME TO OUR VARSITY</h5>
+                
+                  <h2>Education is the best key success in life</h2>
+                
+                <button type="button" id="btn2" class="btn px-3 py-0 rounded-5" style="background-color: transparent; border: 2px solid white;">
+                  <p class="text m-0 px-2 py-2 fw-bold text-white">Our Courses</p>
+                </button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          
+        </div>
+    
+      </div>
+      
+      <button class="carousel-control-prev" type="button" data-bs-target="#slider1" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#slider1" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+    </div>
+
+    <!--course cards and form-->
+    <div class="cd-1">
+      <div class="container">
+
+        <div class="row justify-content-between">
+          <div class="col-xl-7 col-md-7 px-3">
+            <div class="cd d-flex flex-wrap justify-content-between">
+             
+              <div class="c1 col-xl-5 col-md-5 col-sm-4 col-4">  <!--eg for col-->
+                <img src="https://templates.mhrtheme.com/varsity/img/icon/course_1.svg" style="max-width: 50px; height: auto;" alt="...">
+                <h5 class="card-title mt-4 mb-3 fw-bold">Next Scheduled</h5>
+                <p class="card-text mb-3">Tosser what plonker mufty squiffy the wireless the monty.</p>
+              </div>
+              
+              <div class="c1" style="flex-basis: 40%;">
+                <img src="https://templates.mhrtheme.com/varsity/img/icon/course_2.svg" style="max-width: 50px; height: auto;" alt="...">
+                <h5 class="card-title mt-4 mb-3 fw-bold">Next Scheduled</h5>
+                <p class="card-text mb-3">Tosser what plonker mufty squiffy the wireless the monty.</p>
+              </div>
+
+              <div class="c1" style="flex-basis: 40%;">
+                <img src="https://templates.mhrtheme.com/varsity/img/icon/course_3.svg" style="max-width: 50px; height: auto;" alt="...">
+                <h5 class="card-title mt-4 mb-3 fw-bold">Next Scheduled</h5>
+                <p class="card-text mb-3">Tosser what plonker mufty squiffy the wireless the monty.</p>
+              </div>
+              <div class="c1" style="flex-basis: 40%;">
+                <img src="https://templates.mhrtheme.com/varsity/img/icon/course_4.svg" style="max-width: 50px; height: auto;" alt="...">
+                <h5 class="card-title mt-4 mb-3 fw-bold">Next Scheduled</h5>
+                <p class="card-text mb-3 ">Tosser what plonker mufty squiffy the wireless the monty.</p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-md-5 px-3">
+          <div class="cf">
+            <div class="cf-in px-4 py-4 bg-white">
+              <h3 class="heading mb-4">Registration For Course Enroll</h3>
+
+              <div class="forform">
+                <div class="form-group">
+                  <input type="text" class="form-control my-3 " placeholder="Name">
+                  <input type="email" class="form-control my-3" placeholder="Email">
+                  <input type="tel" class="form-control my-3" placeholder="Phone">
+                  <input type="text" class="form-control my-3" placeholder="Course Name">
+                  <button type="submit" class="btn-an">Apply Now</button>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="pr">
+      <div class="container">
+        <div class="row mx-3 d-flex flex-wrap justify-content-between align-items-center">
+          
+          <div class="col-xl-5 col-md-6">
+            <div class="image">
+              <img src="https://templates.mhrtheme.com/varsity/img/about.png" class="img-responsive" alt="studentimage">
+            </div>
+          </div>
+    
+          <div class="col-xl-6 col-md-6">
+            <div class="details">
+              
+              <h2>We are Experts <br>Learning Institution</h2>
+              
+              <h4 class="text">20 Years of Experience</h4>
+              
+              <p class="para">Do one absolutely bladdered say bugger all mate only a quid that 
+                chip shop amongst, cuppa excuse my French lemon squeezy bender
+                zonked my lady gosh cup of tea, have it spiffing good time naff 
+                wind up codswallop crikey.</p>
+
+                <h4 class="text">Call Us +456 968 562 75</h4>
+                
+                <button type="submit" class="btn-pr text-white fw-medium bg-primary mt-2 border-0">View Courses</button>
+            
+              </div>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+
+    <div class="icon-card">
+      <div class="container">
+    
+        <div class="row d-flex flex-wrap justify-content-center">
+          
+          <div class="col-lg-6 col-md-6">
+            <div class="titles text-center pb-4">
+              <h2>
+                Explore Our <br>Popular Courses 
+              </h2>
+              <p>
+                Jeffrey crikey victoria sponge mush spiffing super arse over 
+                tit matie boy smashing. The little rotter off his nut codswallop.!
+              </p>
+            </div>
+          </div>
+          
+          <div class="col-lg-12 pb-3">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <!-- First slide da -->
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="card mx-4 my-4">
+                                    <img src="icons/slide1/popular_item_1.png" class="card-img-top" alt="Card Image">
+                                    <div class="card-body bg-white px-3 py-3">
+                                        <div class="d-flex justify-content-between align-items-center mb-3">
+                                            <span class="badge bg-primary text-white px-3 py-1" style="border-radius: 50px;">$40.00</span>
+                                            <div class="d-flex align-items-center">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" style="width: 13px; height: 13px;">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" style="width: 13px; height: 13px;  margin-left: 3px;">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" style="width: 13px; height: 13px;  margin-left: 3px;">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" style="width: 13px; height: 13px;  margin-left: 3px;">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" style="width: 13px; height: 13px;  margin-left: 3px;">
+                                            </div>
+                                        </div>
+                                        <h5 class="card-title">English Class</h5>
+                                        <div class="d-flex align-items-center mt-4 mb-4">
+                                            <img src="icons/slide1/user-solid.svg" alt="Profile" class="rounded-circle me-2" style="width: 30px; height: 30px;">
+                                            <span class="fw-normal">Jason</span>
+                                        </div>
+                                        <hr>
+                                        <div class="card-bottom d-flex justify-content-between pt-3">
+                                            <p class="text"><i class="fa-solid fa-book text-primary"></i><span class="text ps-2">2 Lessons</span></p>
+                                            <p class="text"><i class="fa-regular fa-clock text-primary"></i><span class="text ps-2">10 weeks</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+      
+                            <div class="col-lg-4 col-md-6">
+                              <div class="card mx-4 my-4">
+                                <img src="icons/slide1/popular_item_2.png" class="card-img-top" alt="Card Image">
+                                <div class="card-body bg-white px-3 py-3">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <span class="badge bg-primary text-white px-3 py-1" style="border-radius: 50px;">$40.00</span>
+                                        <div class="d-flex align-items-center">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" style="width: 13px; height: 13px;">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" style="width: 13px; height: 13px;  margin-left: 3px;">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" style="width: 13px; height: 13px;  margin-left: 3px;">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" style="width: 13px; height: 13px;  margin-left: 3px;">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" style="width: 13px; height: 13px;  margin-left: 3px;">
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title">English Class</h5>
+                                    <div class="d-flex align-items-center mt-4 mb-4">
+                                        <img src="icons/slide1/user-solid.svg" alt="Profile" class="rounded-circle me-2" style="width: 30px; height: 30px;">
+                                        <span class="fw-normal">Jason</span>
+                                    </div>
+                                    <hr>
+                                    <div class="card-bottom d-flex justify-content-between pt-3">
+                                        <p class="text"><i class="fa-solid fa-book text-primary"></i><span class="text ps-2">2 Lessons</span></p>
+                                        <p class="text"><i class="fa-regular fa-clock text-primary"></i><span class="text ps-2">10 weeks</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+        
+                            <div class="col-lg-4 col-md-6">
+                              <div class="card mx-4 my-4">
+                                <img src="icons/slide1/popular_item_3.png" class="card-img-top" alt="Card Image">
+                                <div class="card-body bg-white px-3 py-3">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <span class="badge bg-primary text-white px-3 py-1" style="border-radius: 50px;">$40.00</span>
+                                        <div class="d-flex align-items-center">
+                                          <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" style="width: 13px; height: 13px;">
+                                          <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" style="width: 13px; height: 13px;  margin-left: 3px;">
+                                          <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" style="width: 13px; height: 13px;  margin-left: 3px;">
+                                          <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" style="width: 13px; height: 13px;  margin-left: 3px;">
+                                          <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" style="width: 13px; height: 13px;  margin-left: 3px;">
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title">English Class</h5>
+                                    <div class="d-flex align-items-center mt-4 mb-4">
+                                        <img src="icons/slide1/user-solid.svg" alt="Profile" class="rounded-circle me-2" style="width: 30px; height: 30px;">
+                                        <span class="fw-normal">Jason</span>
+                                    </div>
+                                    <hr>
+                                    <div class="card-bottom d-flex justify-content-between pt-3">
+                                        <p class="text"><i class="fa-solid fa-book text-primary"></i><span class="text ps-2">2 Lessons</span></p>
+                                        <p class="text"><i class="fa-regular fa-clock text-primary"></i><span class="text ps-2">10 weeks</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Second slide da-->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                              <div class="card mx-4 my-4">
+                                <img src="icons/slide1/popular_item_1.png" class="card-img-top" alt="Card Image">
+                                <div class="card-body bg-white px-3 py-3">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <span class="badge bg-primary text-white px-3 py-1" style="border-radius: 50px;">$40.00</span>
+                                        <div class="d-flex align-items-center">
+                                          <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" style="width: 13px; height: 13px;">
+                                          <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" style="width: 13px; height: 13px;  margin-left: 3px;">
+                                          <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" style="width: 13px; height: 13px;  margin-left: 3px;">
+                                          <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" style="width: 13px; height: 13px;  margin-left: 3px;">
+                                          <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" style="width: 13px; height: 13px;  margin-left: 3px;">
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title">English Class</h5>
+                                    <div class="d-flex align-items-center mt-4 mb-4">
+                                        <img src="icons/slide1/user-solid.svg" alt="Profile" class="rounded-circle me-2" style="width: 30px; height: 30px;">
+                                        <span class="fw-normal">Jason</span>
+                                    </div>
+                                    <hr>
+                                    <div class="card-bottom d-flex justify-content-between pt-3">
+                                        <p class="text"><i class="fa-solid fa-book text-primary"></i><span class="text ps-2">2 Lessons</span></p>
+                                        <p class="text"><i class="fa-regular fa-clock text-primary"></i><span class="text ps-2">10 weeks</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+        
+                            <div class="col-lg-4 col-md-6">
+                              <div class="card mx-4 my-4">
+                                <img src="icons/slide1/popular_item_2.png" class="card-img-top" alt="Card Image">
+                                <div class="card-body bg-white px-3 py-3">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <span class="badge bg-primary text-white px-3 py-1" style="border-radius: 50px;">$40.00</span>
+                                        <div class="d-flex align-items-center">
+                                          <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" style="width: 13px; height: 13px;">
+                                          <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" style="width: 13px; height: 13px;  margin-left: 3px;">
+                                          <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" style="width: 13px; height: 13px;  margin-left: 3px;">
+                                          <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" style="width: 13px; height: 13px;  margin-left: 3px;">
+                                          <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" style="width: 13px; height: 13px;  margin-left: 3px;">
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title">English Class</h5>
+                                    <div class="d-flex align-items-center mt-4 mb-4">
+                                        <img src="icons/slide1/user-solid.svg" alt="Profile" class="rounded-circle me-2" style="width: 30px; height: 30px;">
+                                        <span class="fw-normal">Jason</span>
+                                    </div>
+                                    <hr>
+                                    <div class="card-bottom d-flex justify-content-between pt-3">
+                                        <p class="text"><i class="fa-solid fa-book text-primary"></i><span class="text ps-2">2 Lessons</span></p>
+                                        <p class="text"><i class="fa-regular fa-clock text-primary"></i><span class="text ps-2">10 weeks</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+        
+                            <div class="col-lg-4 col-md-6">
+                              <div class="card mx-4 my-4">
+                                <img src="icons/slide1/popular_item_3.png" class="card-img-top" alt="Card Image">
+                                <div class="card-body bg-white px-3 py-3">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <span class="badge bg-primary text-white px-3 py-1" style="border-radius: 50px;">$40.00</span>
+                                        <div class="d-flex align-items-center">
+                                          <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" style="width: 13px; height: 13px;">
+                                          <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" style="width: 13px; height: 13px;  margin-left: 3px;">
+                                          <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" style="width: 13px; height: 13px;  margin-left: 3px;">
+                                          <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" style="width: 13px; height: 13px;  margin-left: 3px;">
+                                          <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" style="width: 13px; height: 13px;  margin-left: 3px;">
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title">English Class</h5>
+                                    <div class="d-flex align-items-center mt-4 mb-4">
+                                        <img src="icons/slide1/user-solid.svg" alt="Profile" class="rounded-circle me-2" style="width: 30px; height: 30px;">
+                                        <span class="fw-normal">Jason</span>
+                                    </div>
+                                    <hr>
+                                    <div class="card-bottom d-flex justify-content-between pt-3">
+                                        <p class="text"><i class="fa-solid fa-book text-primary"></i><span class="text ps-2">2 Lessons</span></p>
+                                        <p class="text"><i class="fa-regular fa-clock text-primary"></i><span class="text ps-2">10 weeks</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button> -->
+            </div>
+        </div>
+        
+        </div>
+    
+      </div>
+    </div>
+
+
+    <div class="instructors">
+      <div class="container">
+    
+        <div class="row d-flex flex-wrap justify-content-center">
+          
+          <div class="col-lg-6 col-md-6">
+            <div class="titles text-center pb-4">
+              <h2>
+                Top Instructors 
+              </h2>
+              <p>
+                Jeffrey crikey victoria sponge mush spiffing super arse over 
+                tit matie boy smashing. The little rotter off his nut codswallop.!
+              </p>
+            </div>
+          </div>
+          
+          <div class="row d-flex flex-wrap justify-content-center">
+
+            <div class="col-xl-3 col-lg-3 col-sm-5 pb-3">
+              <div class="ins">
+                <img src="icons/slide1/instructor_1.png" class="ins-img my-4 w-100" alt="instructor jeyamravi"/>
+                <div class="about-inst ">
+                  <h3 class="text mb-1">Dylan Meringue</h3>
+                  <p>Sales Director</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-3 col-sm-5 pb-3">
+              <div class="ins" style="border-radius: 50%;">
+                <img src="icons/slide1/instructor_2.png" class="ins-img my-4 w-100" alt="instructor jeyamravi"/>
+                <div class="about-inst ">
+                  <h3 class="text mb-1">Chauffina Carr</h3>
+                  <p>Mathematics</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-3 col-sm-5 pb-3">
+              <div class="ins" style="border-radius: 50%;">
+                <img src="icons/slide1/instructor_3.png" class="ins-img my-4 w-100" alt="instructor jeyamravi"/>
+                <div class="about-inst ">
+                  <h3 class="text mb-1">Jason Response</h3>
+                  <p>Marketing</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-3 col-sm-5 pb-3">
+              <div class="ins" style="border-radius: 50%;">
+                <img src="icons/slide1/instructor_4.png" class="ins-img my-4 w-100" alt="instructor jeyamravi"/>
+                <div class="about-inst ">
+                  <h3 class="text mb-1">Hanson Deck</h3>
+                  <p>IT Specialist</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        
+        </div>
+    
+      </div>
+    </div>
+    
+    <div class="tv">
+      <div class="container">
+    
+        <div class="row d-flex flex-wrap">
+          
+          <div class="col-lg-5 col-md-6">
+            <div class="titles pb-4">
+              <h2>
+               Your motivation & <br> attention will teach<br> you best
+              </h2>
+              <p>
+                Cack gormless young delinquent that bits and bobs he nicked it mush, spiffing smashing he legged it have it codswallop.
+              </p>
+              </div>
+
+              <div class="row ms-2" style="max-width: 70%;">
+                <div class="row p-2">
+                  <button class="btn bg-white d-flex align-items-center justify-content-center w-100 py-3">
+                    <i class="fa-solid fa-book me-2"></i> 
+                    <span class="text">Graphics Design</span>
+                  </button>
+                </div>
+              
+                <div class="row p-2">
+                  <button class="btn bg-white d-flex align-items-center justify-content-center w-100 py-3">
+                    <i class="fa-solid fa-bus me-2"></i> 
+                    <span class="text">Self Development</span>
+                  </button>
+                </div>
+              
+                <div class="row p-2">
+                  <button class="btn bg-white d-flex align-items-center justify-content-center w-100 py-3">
+                    <i class="fa-solid fa-anchor me-2"></i> 
+                    <span class="text">IT & Software</span>
+                  </button>
+                </div>
+              </div>
+              
+          </div>
+
+          <div class="col-lg-5 col-md-6 my-3">
+            <div class="vc">
+               <img src="icons/slide1/motivation_video_bg.png" class="img-thumbnail p-0" alt="thumbnail"></img>
+            </div>
+          </div>
+
+        </div>
+    
+      </div>
+    </div>
+
+    <div class="events">
+      <div class="container">
+    
+        <div class="row d-flex flex-wrap justify-content-center">
+          
+          <div class="col-lg-6 col-md-6">
+            <div class="titles text-center pb-4">
+              <h2>
+                Our Upcoming Events 
+              </h2>
+              <p>
+                Jeffrey crikey victoria sponge mush spiffing super arse over 
+                tit matie boy smashing. The little rotter off his nut codswallop.!
+              </p>
+            </div>
+          </div>
+          
+          <div class="row d-flex flex-wrap justify-content-center">
+            <div class="col-lg-8 col-md-12">
+
+              <div class="pro-text align-items-center p-4 bg-light">
+                
+                <img src="icons/slide1/instructor_3.png" alt="Profile Image" class="img-fluid">
+                
+                <div class="eve-info">
+                  
+                  <p class="text-warning mb-2">14 JANUARY, 2022</p>
+                  
+                  <h4 class="fw-bold mb-3">Why you Need Advance<br> Development Process Course?</h4>
+                  
+                  <div class="card-bottom pt-2 ">
+                    <p class="text"><i class="fa-solid fa-book text-primary"></i><span class="text ps-2">10.30 AM - 5.30 PM</span></p>
+                    <p class="text"><i class="fa-solid fa-location-crosshairs text-primary"></i><span class="text ps-2">19 Road, Dhanmondi Dohs, New York, USA</span></p>
+                </div>
+
+                  <p class="text pt-3">
+                    He lost his bottle bamboozled golly gosh some dodgy chav only a quid my lady chip shop argy-bargy, the bee's knees morish loo get stuffed mate pardon me zonked knees.!
+                  </p>
+                  
+                </div>
+                
+              </div>
+
+              <div class="pro-text align-items-center p-4 bg-light">
+                
+                <img src="icons/slide1/instructor_3.png" alt="Profile Image" class="img-fluid">
+                
+                <div class="eve-info">
+                  
+                  <p class="text-warning mb-2">14 JANUARY, 2022</p>
+                  
+                  <h4 class="fw-bold mb-3">Why you Need Advance<br> Development Process Course?</h4>
+                  
+                  <div class="card-bottom pt-2 ">
+                    <p class="text"><i class="fa-solid fa-book text-primary"></i><span class="text ps-2">10.30 AM - 5.30 PM</span></p>
+                    <p class="text"><i class="fa-solid fa-location-crosshairs text-primary"></i><span class="text ps-2">19 Road, Dhanmondi Dohs, New York, USA</span></p>
+                </div>
+
+                  <p class="text pt-3">
+                    He lost his bottle bamboozled golly gosh some dodgy chav only a quid my lady chip shop argy-bargy, the bee's knees morish loo get stuffed mate pardon me zonked knees.!
+                  </p>
+                  
+                </div>
+                
+              </div>
+
+              <div class="pro-text align-items-center p-4 bg-light">
+                
+                <img src="icons/slide1/instructor_3.png" alt="Profile Image" class="img-fluid">
+                
+                <div class="eve-info">
+                  
+                  <p class="text-warning mb-2">14 JANUARY, 2022</p>
+                  
+                  <h4 class="fw-bold mb-3">Why you Need Advance<br> Development Process Course?</h4>
+                  
+                  <div class="card-bottom pt-2 ">
+                    <p class="text"><i class="fa-solid fa-book text-primary"></i><span class="text ps-2">10.30 AM - 5.30 PM</span></p>
+                    <p class="text"><i class="fa-solid fa-location-crosshairs text-primary"></i><span class="text ps-2">19 Road, Dhanmondi Dohs, New York, USA</span></p>
+                </div>
+
+                  <p class="text pt-3">
+                    He lost his bottle bamboozled golly gosh some dodgy chav only a quid my lady chip shop argy-bargy, the bee's knees morish loo get stuffed mate pardon me zonked knees.!
+                  </p>
+                  
+                </div>
+                
+              </div>
+
+            </div>
+          </div>
+          
+        
+        </div>
+    
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container" style="margin-left: auto; margin-right: auto;">
+        <div class="row" style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+
+          <div class="col-xl-3 col-lg-3 col-sm-6">
+            <div class="col1 mt-3">
+              <a class="footer-brand" href="#">
+                <img src="icons/logo.png" alt="Logo" class="logo mb-4">
+              </a>
+              <p>Loo faff about cockup Harry baking cakes hunky dory mush happy days on your bike mate.</p>
+              <div class="contact mt-3 ">
+                <p class="text text-primary"><i class="fa-solid fa-phone text-primary"></i><span class="text ps-2">+464 145 684 325</span></p>
+                <p class="text text-primary"><i class="fa-regular fa-envelope text-primary"></i><span class="text ps-2">education@example.com</span></p>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-3 col-sm-6">
+            <div class="col2 mt-3">
+              <h5 class="text mb-4">POPULAR COURSES</h5>
+              <div class="pc">
+                <p>Algebra & Calculus</p>
+                <p>Business Strategy</p>
+                <p>Computer Security & Network</p>
+                <p>Data Analysis</p> 
+                <p>English Learning</p> 
+                <p>Music & Art</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-3 col-sm-6">
+            <div class="col3 mt-3">
+              <h5 class="text mb-4">COURSE CATEGORIES</h5>
+              <div class="pc">
+                <p>Arts & Humanities</p>
+                <p>Business</p>
+                <p>Computer Science</p>
+                <p>Data Science</p> 
+                <p>Language Learning</p> 
+                <p>Math & Logic</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-3 col-sm-6">
+            <div class="col4 mt-3">
+              <h5 class="text mb-4">QUICK LINKS</h5>
+              <div class="pc">
+                <p>Live Class</p>
+                <p>Tuition Fees</p>
+                <p>Terms & Conditions</p>
+                <p>Privacy Policy</p> 
+                <p>Support</p> 
+                <p>Career</p>
+              </div>
+            </div>
+          </div>
+          </div>
+
+          <div class="col-lg-12">
+            <div class="container mt-5">
+              <div class="row d-flex pt-3 flex-wrap align-items-center">
+                <div class="col-lg-6 col-md-8 m-0">
+                  <div class="cr">
+                    <p>© Copyright 2023 Design by <span class="span text-primary">MhrTheme.</span>  All rights reserved.</p>
+                  </div>
+                </div>
+      
+                <div class="col-lg-6 col-md-8">
+                  <div class="cricons">
+                    <i class="fa-brands fa-facebook text-bg-transparent text-muted" style="border:2px solid rgba(0, 0, 0, 0.411); border-radius: 50px; padding: 8px;"></i>
+                    <i class="fa-brands fa-x-twitter text-bg-transparent text-muted" style="border:2px solid rgba(0, 0, 0, 0.411); border-radius: 50px; padding: 8px;"></i>
+                    <i class="fa-brands fa-instagram text-bg-transparent text-muted" style="border:2px solid rgba(0, 0, 0, 0.411); border-radius: 50px; padding: 8px;"></i>
+                    <i class="fa-brands fa-youtube text-bg-transparent text-muted" style="border:2px solid rgba(0, 0, 0, 0.411); border-radius: 50px; padding: 8px;"></i>
+                    <i class="fa-brands fa-skype text-bg-transparent text-muted" style="border:2px solid rgba(0, 0, 0, 0.411); border-radius: 50px; padding: 8px;"></i>
+                    <i class="fa-brands fa-google text-bg-transparent text-muted" style="border:2px solid rgba(0, 0, 0, 0.411); border-radius: 50px; padding: 8px;"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </footer>
+
+</body>
+</html>

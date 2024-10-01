@@ -1,0 +1,598 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+header{
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+}
+
+.navbar .btn-1 p{
+  padding:4px 3px;
+  font-size:15px;
+  font-weight: 500;
+}
+
+.btn-1 {
+  background-color: #2572ff;
+  color: white;
+  border: 2px solid #2572ff;
+  transition: all 0.3s ease; 
+}
+
+.btn-1 p{
+  color: white;
+}
+
+.btn-1:hover, .btn-1:focus {
+  background-color: transparent;
+  color: #2572ff;
+  border: 2px solid #2572ff;
+}
+
+
+/* @media screen and (max-width: 991px){
+  .btn-1{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-weight: 500;
+  }
+} */
+
+.nav-link.active {
+  color: #2572ff !important; 
+}
+
+.navbar-nav .nav-link:hover {
+  color: #2572ff !important; 
+}
+
+.carousel-inner .carousel-caption{
+  padding-bottom: 180px;
+}
+
+  /* Overlay Style */
+  .carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(21, 80, 135, 0.256); 
+    z-index: 1;
+  }
+
+  .carousel-caption {
+    z-index: 2; 
+  }
+
+/* Style for h5 inside carousel-caption */
+.carousel-caption h5 {
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+/* Style for h2 inside carousel-caption */
+.carousel-caption h2 {
+  font-size: 50px;
+  color: white;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.cd-1{
+  overflow: hidden;
+  margin-top: -80px;
+  z-index: 8;
+  position: relative;
+  padding-bottom: 50px;
+  /* background-color: #2572ff; */
+}
+
+.cd-1 .container{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  /* background-color: indigo; */
+}
+
+.cd-1 .container .cd{
+  margin-top: 70px;
+}
+
+.cd .c1{
+  margin-top: 75px;
+}
+
+.cd .c1 p{
+  font-size: 15px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.532);
+}
+
+.cf h3{
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 45px;
+}
+
+.cd .cf{
+  position: relative;
+  z-index: 10;
+}
+
+.form-group .form-control{
+  border-radius: 50px;
+  background-color: #ced7ec70;
+  /* border: 2px solid; */
+  border: none;
+  color: rgba(0, 0, 0, 0.492);
+  line-height: 15px;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 19px 25px;
+}
+
+.btn-an{
+  border-radius: 50px;  
+  border: 0PX;
+  font-weight: 700;
+  font-size: 18px;
+  padding:15px 10px;
+  margin-top:10px;
+  width: 100%;
+  color:white;
+  background-color:#2572ff;
+}
+
+/* text-white bg-primary mt-2 px-3 py-3 w-100 */
+
+.cf-in {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(128, 128, 128, 0.6); 
+}
+
+.image .img-responsive {
+  height: auto;
+  max-width: 100%;
+  border: none;
+}
+
+.details {
+  background-color: transparent;
+}
+
+/* h2 , h4 and p design in this css for classes details,icon-card,instructors*/
+
+.details h2, .icon-card .titles h2, .instructors h2, .tv h2, .events h2{
+  font-size: 45px;
+  line-height: 55px;
+  margin-bottom: 18px;
+  font-weight: 600;
+}
+
+.details h4 {
+  font-weight: 400;
+  color: #2572ff;
+}
+
+.details p, .icon-card .titles p, .instructors p, .tv p, .events p{
+  color: #626a77;
+  margin-bottom: 18px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.btn-pr {
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+
+.pr .container{
+  max-width: fit-content;
+  max-height: fit-content;
+  /* background-color: #b4dd6870; */
+  background-color: white;
+  padding: 15px 15px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .pr .container{
+    max-width: fit-content;
+    max-height: fit-content;
+  }
+
+  .pr .details{
+    padding: 20px;
+  }
+}
+
+.pr{
+  padding-bottom: 50px;
+}
+
+/* for carousel cards*/
+.icon-card{
+  padding: 50px 0px;
+  background-color: #626a7717;
+}
+
+.carousel-indicators{
+  left: 0;
+  top: auto;
+  bottom: -30px;
+  /* background-color: #626a77; */
+}
+
+.carousel-indicators li{
+  padding: 12px;
+}
+
+.carousel-indicators .active{
+  background-color: #2572ff;
+}
+
+.instructors{
+  padding: 50px 0px;
+  background-color: white;
+}
+
+.instructors .ins h3{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.instructors .ins img{
+  border-radius: 15px;
+}
+
+.tv{
+  padding: 50px 0px;
+  background-color: #626a7717;
+}
+
+.fa-solid {
+  color: grey;
+}
+
+.row.p-2:first-child .text,
+.row.p-2:first-child .fa-solid {
+  color: blue;
+}
+
+button:focus,button:hover .text,
+button:focus,button:hover .fa-solid {
+  color: blue;
+}
+
+.vc{
+    /* background-color: #000000;  */
+    /* margin-top: -50px;
+    margin-bottom: -50px;  */
+     height: 100%; 
+    width: 100%;
+    position: relative;
+    right: 0;
+    top: 0;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+}
+
+.vc .img-thumbnail{
+  height: 100%;
+}
+
+.events{
+  padding: 50px 0px;
+  background-color: white;
+}
+
+/* .pro-text {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+} */
+
+.eve-info {
+  padding-top: 10px;
+}
+
+.text-warning {
+  color: #ffc107; 
+}
+
+h4 {
+  font-size: 25px; 
+  font-weight: 600;
+  line-height: 35px;
+}
+
+p {
+  color: #626a77;
+  margin-bottom: 18px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+img.rounded-circle {
+  margin-right: 25px;
+  border-radius: 50%;
+  width: 300px;
+  height: 200px;
+  max-width: 275px;
+}
+
+.pro-text {
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.147); /* Adjust the values as per your preference */
+  border-radius: 10px; /* Optional: to soften the corners */
+  margin-bottom: 40px;
+}
+
+.pro-text .img-fluid{
+  border-radius:50%;
+  width: 180px;
+  height:180px;
+  margin-right:30px;
+}
+
+.pro-text{
+  display: flex;
+}
+
+.footer{
+  padding: 50px 0px;
+  background-color:#626a7717;
+}
+
+.footer .pc p{
+  margin: 8px 0px;
+  font-weight: 400;
+}
+
+.footer .pc p:hover,
+.footer .pc p:focus {
+  color: #2572ff;
+}
+
+.cr {
+  margin-bottom:0px;
+}
+
+.cr p{
+      /* color: #626a77; */
+      /* margin-bottom: 18px; */
+      font-weight: 500;
+      font-size: 15px;
+      /* line-height: 25px; */
+}
+
+.criscon i{
+
+}
+
+.pr .details{
+
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+
+  .cd-1 .cf h3{
+      font-weight: 600;
+      font-size: 25px;
+      line-height: 35px;
+  }
+
+  .cd-1  .form-group .form-control{
+      border-radius: 50px;
+      background-color: #ced7ec70;
+      /* border: 2px solid; */
+      border: none;
+      color: rgba(0, 0, 0, 0.492);
+      line-height: 15px;
+      font-size: 15px;
+      font-weight: 500;
+      padding: 18px 20px;
+    }
+
+    .btn-an{
+      border-radius: 50px;  
+      border: 0PX;
+      font-weight: 500;
+      font-size: 15px;
+      padding:15px 18px;
+      margin-top:5px;
+      /* width: 100%; */
+      color:white;
+      background-color:#2572ff;
+    }
+    
+    .carousel-inner .carousel-caption{
+      padding-bottom: 20px;
+    } 
+
+    /* Style for h5 inside carousel-caption */
+.carousel-caption h5 {
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+/* Style for h2 inside carousel-caption */
+.carousel-caption h2 {
+  font-size: 28px;
+  color: white;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.details h2, .icon-card .titles h2, .instructors h2, .tv h2, .events h2{
+  font-size: 25px;
+  line-height: 35px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.details h4 {
+  font-weight: 400;
+  color: #2572ff;
+  font-size:20px;
+  margin-bottom:2px;
+}
+
+.details p, .icon-card .titles p, .instructors p, .tv p, .events p{
+  color: #626a77;
+  margin-bottom: 18px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+}
+
+@media screen and (max-width:767px) {
+
+  .navbar .navbar-brand img{
+    max-width:90px;
+  }
+
+  .navbar .btn-1 p{
+    padding:2px 2px;
+    font-size:15px;
+  }
+
+  .cd-1 .cf h3{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.cd-1  .form-group .form-control{
+    border-radius: 50px;
+    background-color: #ced7ec70;
+    /* border: 2px solid; */
+    border: none;
+    color: rgba(0, 0, 0, 0.492);
+    line-height: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 15px;
+  }
+
+  .btn-an{
+    border-radius: 50px;  
+    border: 0PX;
+    font-weight: 500;
+    font-size: 15px;
+    padding:15px 18px;
+    margin-top:5px;
+    /* width: 100%; */
+    color:white;
+    background-color:#2572ff;
+  }
+
+  .details h2, .icon-card .titles h2, .instructors h2, .tv h2, .events h2{
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+  
+  .details h4 {
+    font-weight: 400;
+    color: #2572ff;
+    font-size:17px;
+    margin-bottom:2px;
+  }
+  
+  .details p, .icon-card .titles p, .instructors p, .tv p, .events p{
+    color: #626a77;
+    margin-bottom: 18px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .pro-text{
+    display: block;
+  }
+
+  .pro-text img{
+    margin-right:0px;
+    width: 180px;
+    height:180px;
+  }
+
+  .navbar .navbar-brand{
+    display:none;
+  }
+
+  .navbar .btn-1{
+    display:none;
+  }
+
+  /* Style for h5 inside carousel-caption */
+.carousel-caption h5 {
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+/* Style for h2 inside carousel-caption */
+.carousel-caption h2 {
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+}
+
+@media screen and (max-width:576px){
+  .carousel-caption h5 {
+    font-size: 8px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 5px;
+    font-weight: 300;
+  }
+  
+  /* Style for h2 inside carousel-caption */
+  .carousel-caption h2 {
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 0px;
+  }
+
+  .carousel .btn{
+    display:none;
+  }
+}
